@@ -1,6 +1,6 @@
 const router = require('express').Router();
-// const landingPage = require('./landing-page');
+const userRoutes = require('./userRoutes');
 
-// router.use('/landing-page', landingPage);
+router.use('/users', userRoutes);
 
 module.exports = router;
